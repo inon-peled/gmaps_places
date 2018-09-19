@@ -7,6 +7,7 @@ DTU = 55.785628, 12.521531
 NOERREPORT = 55.683742, 12.571618
 
 
+# Your API keys are in https://console.cloud.google.com/apis/credentials
 def get_api_key():
     return open('api_key.txt', 'r').read()
 
